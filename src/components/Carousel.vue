@@ -139,7 +139,7 @@ export default {
     }
     .carousel-caption {
       position: absolute;
-      top: 25%;
+      top: 20%;
       width: 60%;
       margin-right: 1.1rem;
       transform: translateX(-50%, -50%);
