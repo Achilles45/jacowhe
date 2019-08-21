@@ -58,7 +58,7 @@ export default {
     }
     .fa-bars {
       background: #fff;
-      font-size: 2rem;
+      font-size: 1.7rem;
       color: $primary-color;
       cursor: pointer !important;
       border-radius: 3px;
