@@ -10,7 +10,7 @@
             <p
               class="animated zoomIn animate3d"
             >Jacowhe Global Investment Limited is your partner of choice that helps you grow your finances and live your dreams. We provide you with customised and well priced products!</p>
-            <router-link to="/products" class="cacrousel-btn animated zoomIn animate3d">See Products</router-link>
+            <router-link to="/products" class="carousel-btn animated zoomIn animate3d">See Products</router-link>
           </div>
         </div>
         <div class="carousel-item">
@@ -21,7 +21,7 @@
             <p
               class="animated slideInRight animate3d"
             >Don't put all your eggs in one basket. We have a well researched plan for our investors to investment and earn a competitive interest monthly. Don't miss this opportunity.</p>
-            <router-link to="/contact" class="cacrousel-btn animated zoomIn animate3d">Invest Now</router-link>
+            <router-link to="/contact" class="carousel-btn animated zoomIn animate3d">Invest Now</router-link>
           </div>
         </div>
         <div class="carousel-item">
@@ -34,7 +34,7 @@
             <p
               class="animated slideInDown animate3d"
             >We have designed our products and services with our customers in mind. Our plans are affordable and higly competitive.</p>
-            <router-link to="/products" class="cacrousel-btn animated zoomIn animate3d">See Products</router-link>
+            <router-link to="/products" class="carousel-btn animated zoomIn animate3d">See Products</router-link>
           </div>
         </div>
       </div>
@@ -86,7 +86,6 @@ export default {
     max-height: 520px;
     display: block !important;
     width: 100vw;
-    background-position: center;
   }
   .animate3d {
     animation-duration: 5s;
@@ -94,9 +93,10 @@ export default {
   .carousel-caption {
     position: absolute;
     top: 25%;
+    transform: translateX(-50%, -50%);
     width: 50%;
     margin: 0 auto;
-    h2 {
+    text h2 {
       font-weight: 800;
       font-size: 2.5rem;
       padding-bottom: 1rem;
@@ -107,7 +107,7 @@ export default {
       font-size: 0.8rem;
       padding-bottom: 0.8rem;
     }
-    .cacrousel-btn {
+    .carousel-btn {
       color: #fff;
       background: $primary-color;
       padding: 1rem 3rem;
@@ -117,6 +117,15 @@ export default {
       border-radius: 3px;
     }
   }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-size: 40%, 40%;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
 }
 
 //MEDIA QUERIES
@@ -125,16 +134,23 @@ export default {
     .carousel-img {
       width: auto;
       height: 100%;
-      max-height: 630px;
+      max-height: 600px;
       display: block;
     }
     .carousel-caption {
       position: absolute;
       top: 25%;
-      width: 80vw;
-      margin: 0 auto;
+      width: 60%;
+      margin-right: 1.1rem;
+      transform: translateX(-50%, -50%);
+      text-align: center;
       h2 {
         font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+      p {
+        font-size: 0.8rem;
+        padding-bottom: 1.5rem;
       }
     }
   }
