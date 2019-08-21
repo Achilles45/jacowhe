@@ -14,7 +14,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa fa-bars"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,6 +55,13 @@ export default {
     .nav-link {
       color: $primary-color;
       margin-left: 1rem;
+    }
+    .fa-bars {
+      background: #fff;
+      font-size: 2rem;
+      color: $primary-color;
+      cursor: pointer !important;
+      border-radius: 3px;
     }
   }
 }
