@@ -4,8 +4,9 @@
     <div class="about__wrapper">
       <div class="container">
         <div class="row">
-          <div class="col-12 about-heading">
-            <h4 class="text-right">About Us</h4>
+          <div class="col-12 about-heading text-right">
+            <h4>About Us</h4>
+            <p>Your financial partner of choice!</p>
           </div>
         </div>
       </div>
@@ -75,7 +76,8 @@ export default {
     url("../assets/about.webp");
   background-position: center;
   background-repeat: no-repeat !important;
-  padding: 10rem 0;
+  padding: 8rem 0;
+  color: #fff;
   .about-heading {
     h4 {
       color: #fff;

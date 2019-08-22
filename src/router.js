@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Index from "./views/Index.vue";
 import Contact from "./views/Contact.vue";
+import Products from "./views/Products.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -26,6 +27,11 @@ export default new Router({
       path: "/contact",
       name: "contact",
       component: Contact
+    },
+    {
+      path: "/products",
+      name: "products",
+      component: Products
     }
   ]
 });

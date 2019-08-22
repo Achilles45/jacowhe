@@ -4,8 +4,9 @@
     <div class="contact__wrapper container-fluid">
       <div class="container">
         <div class="row heading">
-          <div class="col-md-12">
-            <h4 class="text-right">Contact Us!</h4>
+          <div class="col-md-12 text-right">
+            <h4>Contact Us!</h4>
+            <p>Reach out to us today!</p>
           </div>
         </div>
       </div>
@@ -68,11 +69,12 @@ export default {
 .contact__wrapper {
   background: linear-gradient(rgba(4, 9, 30, 0.9), rgba(4, 9, 30, 0.9)),
     url("../assets/world_map.png");
-  padding: 10rem 0;
+  padding: 8rem 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100% !important;
+  color: #fff;
   .heading {
     h4 {
       color: #fff;
