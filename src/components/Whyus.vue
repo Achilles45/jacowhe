@@ -67,6 +67,7 @@ export default {
       }
       p {
         font-size: 0.85rem;
+        color: #82868a;
       }
     }
   }
