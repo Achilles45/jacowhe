@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Index from "./views/Index.vue";
 import Contact from "./views/Contact.vue";
 import Products from "./views/Products.vue";
+import Shareholder from "./views/Shareholder.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -32,6 +33,11 @@ export default new Router({
       path: "/products",
       name: "products",
       component: Products
+    },
+    {
+      path: "/shareholder",
+      name: "Shareholder",
+      component: Shareholder
     }
   ]
 });

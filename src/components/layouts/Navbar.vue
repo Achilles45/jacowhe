@@ -32,6 +32,9 @@
               <router-link to="/products" class="nav-link">Products</router-link>
             </li>
             <li class="nav-item">
+              <router-link to="/shareholder" class="nav-link">Shareholder</router-link>
+            </li>
+            <li class="nav-item">
               <router-link to="/contact" class="nav-link">Contact Us</router-link>
             </li>
           </ul>
