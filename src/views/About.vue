@@ -91,9 +91,9 @@ export default {
 }
 .intro {
   font-size: 0.9rem;
-  color: #82868a;
-  letter-spacing: 0.5px;
-  line-height: 1.5;
+  // color: #82868a;
+  // letter-spacing: 0.5px;
+  // line-height: 1.5;
 }
 .why-us {
   h4 {
