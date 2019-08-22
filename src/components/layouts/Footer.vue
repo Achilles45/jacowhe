@@ -32,7 +32,7 @@
         </div>
       </div>
       <hr />
-      <p>Copyright &copy;2019. Jacowhe Global Investment Limited. All rights reserved</p>
+      <p>Copyright &copy; 2019. Jacowhe Global Investment Limited. All rights reserved</p>
     </div>
   </footer>
 </template>
