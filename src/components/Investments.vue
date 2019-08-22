@@ -27,7 +27,7 @@ export default {
   background: $primary-color;
   margin-top: 3rem;
   color: #fff;
-  padding: 6rem 0;
+  padding: 8rem 0;
   h3 {
     font-weight: bold;
     text-transform: uppercase;

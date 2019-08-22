@@ -18,6 +18,7 @@
     <Investments />
     <!--End of Investments section
     ==========================-->
+    <Footer />
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import Carousel from "@/components/Carousel.vue";
 import Process from "@/components/Process.vue";
 import Whyus from "@/components/Whyus.vue";
 import Investments from "@/components/Investments.vue";
+import Footer from "@/components/layouts/Footer.vue";
 export default {
   name: "index",
   components: {
@@ -37,7 +39,8 @@ export default {
     Carousel,
     Process,
     Whyus,
-    Investments
+    Investments,
+    Footer
   }
 };
 </script>
