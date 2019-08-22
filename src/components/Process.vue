@@ -54,7 +54,6 @@ export default {
     grid-gap: 20px;
     .process-card {
       background-color: #fff;
-      vertical-align: baseline;
       text-align: center;
       border-radius: 4px;
       padding: 3rem;

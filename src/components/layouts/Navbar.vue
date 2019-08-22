@@ -23,16 +23,16 @@
               <router-link to="/" class="nav-link">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/" class="nav-link">About Us</router-link>
+              <router-link to="/about" class="nav-link">About Us</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/" class="nav-link">Team</router-link>
+              <router-link to="/team" class="nav-link">Team</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/" class="nav-link">Products</router-link>
+              <router-link to="/products" class="nav-link">Products</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/" class="nav-link">Contact Us</router-link>
+              <router-link to="/contact" class="nav-link">Contact Us</router-link>
             </li>
           </ul>
         </div>
@@ -48,13 +48,16 @@ export default {
 <style lang="scss" scoped>
 @import "../../styles/_colors.scss";
 .navbar__wrapper {
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.17);
   .navbar {
     .nav-logo {
-      height: 80px;
+      height: 70px;
     }
     .nav-link {
       color: $primary-color;
       margin-left: 1rem;
+      text-transform: uppercase;
+      font-size: 0.86rem;
     }
     .fa-bars {
       background: #fff;

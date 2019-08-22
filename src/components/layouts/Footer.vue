@@ -51,7 +51,8 @@ footer {
     padding-bottom: 01rem;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    opacity: 0.7;
   }
   .about {
     color: $primary-color;
