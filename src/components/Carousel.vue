@@ -83,7 +83,7 @@ export default {
   .carousel-img {
     width: auto;
     height: 100%;
-    max-height: 520px;
+    max-height: 528px;
     display: block !important;
     width: 100vw;
   }
@@ -92,27 +92,29 @@ export default {
   }
   .carousel-caption {
     position: absolute;
-    top: 25%;
+    top: 23%;
     transform: translateX(-50%, -50%);
     width: 50%;
     margin: 0 auto;
-    text h2 {
+    h2 {
       font-weight: 800;
-      font-size: 2.5rem;
-      padding-bottom: 1rem;
+      font-size: 3rem;
+      padding-bottom: 1.2rem;
       letter-spacing: 0.4px;
+      text-transform: capitalize;
     }
     p {
       letter-spacing: 1px;
-      font-size: 0.8rem;
-      padding-bottom: 0.8rem;
+      font-size: 1rem;
+      padding-bottom: 1rem;
+      opacity: 0.5;
     }
     .carousel-btn {
       color: #fff;
       background: $primary-color;
       padding: 1rem 3rem;
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       text-decoration: none;
       border-radius: 3px;
     }

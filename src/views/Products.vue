@@ -130,6 +130,7 @@ export default {
   .products-title {
     h4 {
       font-size: 1.8rem;
+      font-weight: bold;
     }
     p {
       padding-bottom: 1.5rem;
@@ -153,7 +154,7 @@ export default {
       padding-bottom: 0.5rem;
     }
     h6 {
-      font-weight: bold;
+      font-weight: 600;
     }
     p {
       font-size: 0.85rem;

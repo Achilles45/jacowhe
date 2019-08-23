@@ -45,7 +45,10 @@
 </template>
 <script>
 export default {
-  name: "navbar"
+  name: "navbar",
+  data() {
+    return {};
+  }
 };
 </script>
 <style lang="scss" scoped>
@@ -61,6 +64,7 @@ export default {
       margin-left: 1rem;
       text-transform: uppercase;
       font-size: 0.86rem;
+      font-weight: bold;
     }
     .fa-bars {
       background: #fff;
@@ -68,6 +72,13 @@ export default {
       color: $primary-color;
       cursor: pointer !important;
       border-radius: 3px;
+    }
+    .fixed__nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
     }
   }
 }
