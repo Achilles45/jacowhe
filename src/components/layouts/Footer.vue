@@ -10,15 +10,15 @@
         <div class="col-md-4">
           <h5>Contact Details</h5>
           <h6>
-            <i class="fa fa-home"></i>&nbsp; Office Address
+            <i class="fa fa-home footer-icons"></i>&nbsp;&nbsp; Office Address
           </h6>
           <p>Abighe Street, Omovutotu Lane, Ozoro, Isoko North L.G.A, Delta State, Nigeria.</p>
           <h6>
-            <i class="fa fa-envelope"></i>&nbsp; Email Address
+            <i class="fa fa-envelope footer-icons"></i>&nbsp;&nbsp; Email Address
           </h6>
           <p>jgiltd.org.ng@gmail.com</p>
           <h6>
-            <i class="fa fa-phone"></i>&nbsp; Phone:
+            <i class="fa fa-phone footer-icons"></i>&nbsp;&nbsp; Phone:
           </h6>
           <p>08037530271</p>
           <p>08077316791</p>
@@ -49,11 +49,15 @@ footer {
     font-size: 1.1rem;
     font-weight: bold;
     padding-bottom: 01rem;
+    opacity: 0.8;
   }
   p {
     font-size: 0.85rem;
-    opacity: 0.7;
+    opacity: 0.8;
   }
+  // .footer-icons {
+  //   color: $primary-color;
+  // }
   .about {
     color: $primary-color;
   }

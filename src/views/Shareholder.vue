@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 text-right">
-              <h4>Become an Investor</h4>
+              <h4>Become a Shareholder</h4>
               <p>Let your money work for you!</p>
             </div>
           </div>
@@ -52,6 +52,39 @@
             </p>
             <p>
               <i class="fa fa-check-square"></i>&nbsp; Human Capital Development.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <img src="../assets/products.png" class="img-fluid shareholder-img" alt />
+            <h4>Dividends Payment</h4>
+            <p>
+              <i class="fa fa-check-square"></i>&nbsp; 10% Dividends on Capital invested shall be paid to al shareholders and investors bianually (every six months).
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4>Note:</h4>
+            <p>All payments, Lodgements, and Receipts of Jacowhe Global Investment Limited must be passed through her corporate acconts as follows:</p>
+            <h6>
+              <i class="fa fa-check-square"></i>&nbsp;Account Name: Jacowhe Global Investment Limited
+            </h6>
+            <p>Account Number: 2030142282</p>
+            <p>Bank Name: First Bank PLC</p>
+            <br />
+            <h6>
+              <i class="fa fa-check-square"></i>&nbsp; Jacowhe Global Investment Limited
+            </h6>
+            <p>0025767395</p>
+            <p>Unity Bank PLC</p>
+            <h6>
+              <i class="fa fa-check-square"></i>&nbsp; Jacowhe Global Investment Limited
+            </h6>
+            <p>1015461107</p>
+            <p>Zenith Bank PLC</p>
+            <h4>Withdrawal of funds/shares</h4>
+            <p>
+              <i class="fa fa-check-square"></i>&nbsp; A notice of minimum of six months must be given to the company to enable the management recall (and make provisions), the fund that must been invested in Short, Medium and Long Term Investments.
             </p>
           </div>
         </div>

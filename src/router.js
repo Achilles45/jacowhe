@@ -4,6 +4,7 @@ import Index from "./views/Index.vue";
 import Contact from "./views/Contact.vue";
 import Products from "./views/Products.vue";
 import Shareholder from "./views/Shareholder.vue";
+import Team from "./views/Team.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -38,6 +39,11 @@ export default new Router({
       path: "/shareholder",
       name: "Shareholder",
       component: Shareholder
+    },
+    {
+      path: "/team",
+      name: "Team",
+      component: Team
     }
   ]
 });

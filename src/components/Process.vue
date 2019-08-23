@@ -75,6 +75,7 @@ export default {
   .process-heading {
     h3 {
       padding-bottom: 0.5rem;
+      font-weight: bold;
     }
     p {
       font-size: 0.88rem;
